@@ -4,18 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <main>
-        <h1>Sign up</h1>
-        <label for="fullName">fullName</label><br>
-        <input type="fullName" id="fullName"><br>
-        <label for="email">email</label><br>
-        <input type="email" id="email"><br>
-        <label for="passWord">passWord</label><br>
-        <input type="passWord" id="passWord"><br>
-        <button onclick="handlelogin()">Log in</button><br>
-    </main>
-    <script src="index.js"></script>
+    <div class="container">
+        <div class="box">
+            <div class="log"></div>
+                <h1>Join our coding <br> school quiz system.</h1>
+                <p>Test your knowledge, track your progress, and <br> become a better programmer with our <br> comprehensive quiz system.</p>
+        </div>
+        <div id="create">
+            <h1>Create Account</h1>
+            <p>Start your coding journey today</p>
+            <label for="Full name" id="Full name">Full name</label><br>
+            <input type="Fullname" id="Fullname"><br><br>
+            <label for="Email">Email</label><br>
+            <input type="email" id="email"><br><br>
+            <label for="Experience">Programming Experience</label><br>
+            <select id="Experience">
+                <option value="Select your level">Select your level</option>
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option><br>
+            </select><br><br>
+            <label for="Password">Password</label><br>
+            <input type="Pass" id="Password"><br>
+            <label for="Password strength">Password strength</label>
+            <input type="pass" id="strength"><br><br>
+            <button>Create Account</button>
+            <p id="here">Already have an account? <a href="#">Login here</a></p>
+        </div>
+    </div>
 </body>
 </html>

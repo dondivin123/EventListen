@@ -1,0 +1,90 @@
+body{
+    background-color: beige;
+}
+.container{
+    width: 900px;
+    height: 600px;
+    background-color: white;
+    position: fixed;
+    margin: 0px 230px 0px;
+    border-radius: 20px;
+
+}
+.box{
+    background-color: #4b3bff;
+    width: 400px;
+    height: 600px;
+    position: fixed;
+    border-radius: 20px 0 0 20px;
+}
+.log{
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    margin-top: 220px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+.box h1{
+    margin-left: 38px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    margin-left: 38px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+#create h1{
+    margin-left: -10px;
+}
+#create p{
+    color: black;
+    margin-inline-start: -7px;
+    font-family: Verdana;
+}
+#create{
+    margin-inline-start: 440px;
+}
+#Fullname{
+    width: 420px;
+    height: 40px;
+    border-radius: 10px;
+}
+#Fullname:hover{
+    background-color: blue;
+}
+
+#email{
+    width: 420px;
+    height: 40px;
+    border-radius: 10px;
+}
+#Experience{
+    width: 420px;
+    height: 40px;
+    border-radius: 10px;
+}
+#Password{
+    width: 420px;
+    height: 40px;
+    border-radius: 10px;
+}
+#strength{
+    width: 300px;
+    border-radius: 10px;
+    height: 0px;
+}
+button{
+    width: 420px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+}
+#here{
+    text-align: center;
+}
