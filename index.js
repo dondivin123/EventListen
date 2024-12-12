@@ -1,9 +1,11 @@
-let k = 0
-document.getElementById('counter').innerHTML=k
-
-const handleDecrement=()=>{
-    document.getElementById('counter').innerHTML=k-=1
-}
-const handleIcrement =()=>{
-    document.getElementById('counter').innerHTML=k+=1
-}
+const darkModeButton = document.getElementById("darkModeButton")
+const bodyElement = document.body;
+darkModeButton.addEventListener('click', () =>{
+    if(bodyElement.classList.contains('darkMode')){
+        bodyElement.classList.remove('darkMode');
+        darkModeButton.innerText = 'darkMode';
+    } else {
+        bodyElement.classList.add('darkMode');
+        darkModeButton.innerText = 'light Mode';
+    }
+} )
